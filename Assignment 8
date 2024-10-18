@@ -1,0 +1,13 @@
+Q1) PyInputPlus is not a part of python standard lybrary.
+
+Q2)you can import the module with pyinputplus as pyip so that you can input a shorter name when calling the module.
+
+Q3)inputInt() function returns an integer and inputFloat function returns a float value.
+
+Q4)pyip.inputint(min=1,max=100)
+
+Q5)keyword arguments takes a list of regular expression strings to detrmine what the pyinputplus accept or reject as valid input.
+
+Q6)it will throw RetryLimitException exception.
+
+Q7)Blank Values are not allowed.After pressing blank values three times the default value hello will be returned
