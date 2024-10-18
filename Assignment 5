@@ -1,0 +1,24 @@
+Q1) An empty dictionary code looks like an empty pair of curly braces{}.
+
+Q2)  {'foo':42).
+
+Q3) A list is an ordered collection of elements accessed by their index (numeric position).
+A dictionary is an unordered collection of key-value pairs, where elements are accessed by their keys, not by position.
+
+Q4) if you try to access spam['foo'] if spam is {bar: 100}  you get an error
+
+Q5) The expressions 'cat' in spam and 'cat' in spam.keys()` have the same result but work slightly diffrent.
+ 'cat' in spam: Checks if the key 'cat' exists directly in the dictionary spam. This is the most common and efficient way to check for a key's existence in a dictionary.
+
+ 'cat' in spam.keys(): Checks if the key 'cat' is in the list-like object returned by spam.keys(). While it performs the same task, this approach is less efficient because spam.keys() creates a view object of the dictionary keys.
+
+Q6)The difference between 'cat' in spam and 'cat' in spam.values() when spam is a dictionary is:
+
+'cat' in spam: Checks if 'cat' is a key in the dictionary spam. It will return True if 'cat' is one of the dictionary's keys.
+
+'cat' in spam.values(): Checks if 'cat' is a value in the dictionary spam. It will return True if 'cat' is one of the dictionary's values, not a key.
+
+Q7) spam.setdefault('colour','black')
+
+Q8) To "pretty print" dictionary values in Python, you can use the pprint module and its pprint() function. This makes dictionaries (or other data structures) more readable by formatting them neatly.
+    pprint.pprint(spam)
